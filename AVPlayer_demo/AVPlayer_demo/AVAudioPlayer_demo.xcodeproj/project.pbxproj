@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048F10651FD427230078934A /* ViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F10641FD427230078934A /* ViewController+Delegate.swift */; };
+		048F10671FD429CC0078934A /* ViewController+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F10661FD429CC0078934A /* ViewController+Notification.swift */; };
+		048F10891FD431180078934A /* JGProgressHUD+expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F106E1FD431180078934A /* JGProgressHUD+expand.m */; };
+		048F108A1FD431180078934A /* JGProgressHUDIndeterminateIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F10721FD431180078934A /* JGProgressHUDIndeterminateIndicatorView.m */; };
+		048F108B1FD431180078934A /* JGProgressHUDErrorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F10731FD431180078934A /* JGProgressHUDErrorIndicatorView.m */; };
+		048F108C1FD431180078934A /* JGProgressHUDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F10751FD431180078934A /* JGProgressHUDAnimation.m */; };
+		048F108D1FD431180078934A /* JGProgressHUDFadeZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F10791FD431180078934A /* JGProgressHUDFadeZoomAnimation.m */; };
+		048F108E1FD431180078934A /* JGProgressHUD Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 048F107B1FD431180078934A /* JGProgressHUD Resources.bundle */; };
+		048F108F1FD431180078934A /* JGProgressHUDImageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F107C1FD431180078934A /* JGProgressHUDImageIndicatorView.m */; };
+		048F10901FD431180078934A /* JGProgressHUDSuccessIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F107E1FD431180078934A /* JGProgressHUDSuccessIndicatorView.m */; };
+		048F10911FD431180078934A /* JGProgressHUDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F10801FD431180078934A /* JGProgressHUDIndicatorView.m */; };
+		048F10921FD431180078934A /* JGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F10831FD431180078934A /* JGProgressHUD.m */; };
+		048F10931FD431180078934A /* JGProgressHUDFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F10841FD431180078934A /* JGProgressHUDFadeAnimation.m */; };
+		048F10941FD431180078934A /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F10861FD431180078934A /* JGProgressHUDRingIndicatorView.m */; };
+		048F10951FD431180078934A /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F10871FD431180078934A /* JGProgressHUDPieIndicatorView.m */; };
+		048F10981FD4315B0078934A /* MQPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F10961FD4315B0078934A /* MQPlayerManager.swift */; };
+		048F10991FD4315B0078934A /* MQPlayerManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F10971FD4315B0078934A /* MQPlayerManagerDelegate.swift */; };
+		115048D31FCBB9E200D3381E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115048D21FCBB9E200D3381E /* AppDelegate.swift */; };
+		115048D51FCBB9E200D3381E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115048D41FCBB9E200D3381E /* ViewController.swift */; };
+		115048D81FCBB9E200D3381E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115048D61FCBB9E200D3381E /* Main.storyboard */; };
+		115048DA1FCBB9E200D3381E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115048D91FCBB9E200D3381E /* Assets.xcassets */; };
+		115048DD1FCBB9E200D3381E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115048DB1FCBB9E200D3381E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048F10631FD401CE0078934A /* AVAudioPlayer_demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAudioPlayer_demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		048F10641FD427230078934A /* ViewController+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Delegate.swift"; sourceTree = "<group>"; };
+		048F10661FD429CC0078934A /* ViewController+Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Notification.swift"; sourceTree = "<group>"; };
+		048F106E1FD431180078934A /* JGProgressHUD+expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JGProgressHUD+expand.m"; sourceTree = "<group>"; };
+		048F10701FD431180078934A /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
+		048F10711FD431180078934A /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		048F10721FD431180078934A /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
+		048F10731FD431180078934A /* JGProgressHUDErrorIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDErrorIndicatorView.m; sourceTree = "<group>"; };
+		048F10741FD431180078934A /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		048F10751FD431180078934A /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDAnimation.m; sourceTree = "<group>"; };
+		048F10761FD431180078934A /* JGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUD.h; sourceTree = "<group>"; };
+		048F10771FD431180078934A /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
+		048F10781FD431180078934A /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
+		048F10791FD431180078934A /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
+		048F107A1FD431180078934A /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
+		048F107B1FD431180078934A /* JGProgressHUD Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "JGProgressHUD Resources.bundle"; sourceTree = "<group>"; };
+		048F107C1FD431180078934A /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
+		048F107D1FD431180078934A /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
+		048F107E1FD431180078934A /* JGProgressHUDSuccessIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDSuccessIndicatorView.m; sourceTree = "<group>"; };
+		048F107F1FD431180078934A /* JGProgressHUDAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDAnimation.h; sourceTree = "<group>"; };
+		048F10801FD431180078934A /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
+		048F10811FD431180078934A /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
+		048F10821FD431180078934A /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
+		048F10831FD431180078934A /* JGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUD.m; sourceTree = "<group>"; };
+		048F10841FD431180078934A /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
+		048F10851FD431180078934A /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
+		048F10861FD431180078934A /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
+		048F10871FD431180078934A /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
+		048F10881FD431180078934A /* JGProgressHUD+expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD+expand.h"; sourceTree = "<group>"; };
+		048F10961FD4315B0078934A /* MQPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQPlayerManager.swift; sourceTree = "<group>"; };
+		048F10971FD4315B0078934A /* MQPlayerManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQPlayerManagerDelegate.swift; sourceTree = "<group>"; };
+		115048CF1FCBB9E200D3381E /* AVAudioPlayer_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioPlayer_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115048D21FCBB9E200D3381E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		115048D41FCBB9E200D3381E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		115048D71FCBB9E200D3381E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		115048D91FCBB9E200D3381E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		115048DC1FCBB9E200D3381E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		115048DE1FCBB9E200D3381E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E3F0851FCD321500825786 /* AVAudioPlayer_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AVAudioPlayer_demo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115048CC1FCBB9E200D3381E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048F106D1FD431180078934A /* JGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				048F10881FD431180078934A /* JGProgressHUD+expand.h */,
+				048F106E1FD431180078934A /* JGProgressHUD+expand.m */,
+				048F106F1FD431180078934A /* JGProgressHUD */,
+			);
+			path = JGProgressHUD;
+			sourceTree = "<group>";
+		};
+		048F106F1FD431180078934A /* JGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				048F10701FD431180078934A /* JGProgressHUDSuccessIndicatorView.h */,
+				048F10711FD431180078934A /* JGProgressHUDImageIndicatorView.h */,
+				048F10721FD431180078934A /* JGProgressHUDIndeterminateIndicatorView.m */,
+				048F10731FD431180078934A /* JGProgressHUDErrorIndicatorView.m */,
+				048F10741FD431180078934A /* JGProgressHUDIndicatorView.h */,
+				048F10751FD431180078934A /* JGProgressHUDAnimation.m */,
+				048F10761FD431180078934A /* JGProgressHUD.h */,
+				048F10771FD431180078934A /* JGProgressHUDPieIndicatorView.h */,
+				048F10781FD431180078934A /* JGProgressHUDRingIndicatorView.h */,
+				048F10791FD431180078934A /* JGProgressHUDFadeZoomAnimation.m */,
+				048F107A1FD431180078934A /* JGProgressHUDFadeAnimation.h */,
+				048F107B1FD431180078934A /* JGProgressHUD Resources.bundle */,
+				048F107C1FD431180078934A /* JGProgressHUDImageIndicatorView.m */,
+				048F107D1FD431180078934A /* JGProgressHUD-Defines.h */,
+				048F107E1FD431180078934A /* JGProgressHUDSuccessIndicatorView.m */,
+				048F107F1FD431180078934A /* JGProgressHUDAnimation.h */,
+				048F10801FD431180078934A /* JGProgressHUDIndicatorView.m */,
+				048F10811FD431180078934A /* JGProgressHUDErrorIndicatorView.h */,
+				048F10821FD431180078934A /* JGProgressHUDIndeterminateIndicatorView.h */,
+				048F10831FD431180078934A /* JGProgressHUD.m */,
+				048F10841FD431180078934A /* JGProgressHUDFadeAnimation.m */,
+				048F10851FD431180078934A /* JGProgressHUDFadeZoomAnimation.h */,
+				048F10861FD431180078934A /* JGProgressHUDRingIndicatorView.m */,
+				048F10871FD431180078934A /* JGProgressHUDPieIndicatorView.m */,
+			);
+			path = JGProgressHUD;
+			sourceTree = "<group>";
+		};
+		115048C61FCBB9E100D3381E = {
+			isa = PBXGroup;
+			children = (
+				115048D11FCBB9E200D3381E /* AVAudioPlayer_demo */,
+				048F106D1FD431180078934A /* JGProgressHUD */,
+				048F10631FD401CE0078934A /* AVAudioPlayer_demo-Bridging-Header.h */,
+				11E3F0851FCD321500825786 /* AVAudioPlayer_demo.entitlements */,
+				115048D91FCBB9E200D3381E /* Assets.xcassets */,
+				115048DB1FCBB9E200D3381E /* LaunchScreen.storyboard */,
+				115048DE1FCBB9E200D3381E /* Info.plist */,
+				115048D01FCBB9E200D3381E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115048D01FCBB9E200D3381E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115048CF1FCBB9E200D3381E /* AVAudioPlayer_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115048D11FCBB9E200D3381E /* AVAudioPlayer_demo */ = {
+			isa = PBXGroup;
+			children = (
+				115048D21FCBB9E200D3381E /* AppDelegate.swift */,
+				115048D41FCBB9E200D3381E /* ViewController.swift */,
+				048F10641FD427230078934A /* ViewController+Delegate.swift */,
+				048F10661FD429CC0078934A /* ViewController+Notification.swift */,
+				048F10961FD4315B0078934A /* MQPlayerManager.swift */,
+				048F10971FD4315B0078934A /* MQPlayerManagerDelegate.swift */,
+				115048D61FCBB9E200D3381E /* Main.storyboard */,
+			);
+			path = AVAudioPlayer_demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115048CE1FCBB9E200D3381E /* AVAudioPlayer_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115048E11FCBB9E200D3381E /* Build configuration list for PBXNativeTarget "AVAudioPlayer_demo" */;
+			buildPhases = (
+				115048CB1FCBB9E200D3381E /* Sources */,
+				115048CC1FCBB9E200D3381E /* Frameworks */,
+				115048CD1FCBB9E200D3381E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAudioPlayer_demo;
+			productName = AVAudioPlayer_demo;
+			productReference = 115048CF1FCBB9E200D3381E /* AVAudioPlayer_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115048C71FCBB9E100D3381E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "杨孟强";
+				TargetAttributes = {
+					115048CE1FCBB9E200D3381E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 115048CA1FCBB9E100D3381E /* Build configuration list for PBXProject "AVAudioPlayer_demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115048C61FCBB9E100D3381E;
+			productRefGroup = 115048D01FCBB9E200D3381E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115048CE1FCBB9E200D3381E /* AVAudioPlayer_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115048CD1FCBB9E200D3381E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048F108E1FD431180078934A /* JGProgressHUD Resources.bundle in Resources */,
+				115048DD1FCBB9E200D3381E /* LaunchScreen.storyboard in Resources */,
+				115048DA1FCBB9E200D3381E /* Assets.xcassets in Resources */,
+				115048D81FCBB9E200D3381E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115048CB1FCBB9E200D3381E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048F10901FD431180078934A /* JGProgressHUDSuccessIndicatorView.m in Sources */,
+				115048D51FCBB9E200D3381E /* ViewController.swift in Sources */,
+				048F108F1FD431180078934A /* JGProgressHUDImageIndicatorView.m in Sources */,
+				048F10911FD431180078934A /* JGProgressHUDIndicatorView.m in Sources */,
+				048F10941FD431180078934A /* JGProgressHUDRingIndicatorView.m in Sources */,
+				048F108B1FD431180078934A /* JGProgressHUDErrorIndicatorView.m in Sources */,
+				048F10951FD431180078934A /* JGProgressHUDPieIndicatorView.m in Sources */,
+				048F10891FD431180078934A /* JGProgressHUD+expand.m in Sources */,
+				048F108D1FD431180078934A /* JGProgressHUDFadeZoomAnimation.m in Sources */,
+				048F10651FD427230078934A /* ViewController+Delegate.swift in Sources */,
+				048F10921FD431180078934A /* JGProgressHUD.m in Sources */,
+				048F108A1FD431180078934A /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
+				115048D31FCBB9E200D3381E /* AppDelegate.swift in Sources */,
+				048F108C1FD431180078934A /* JGProgressHUDAnimation.m in Sources */,
+				048F10931FD431180078934A /* JGProgressHUDFadeAnimation.m in Sources */,
+				048F10991FD4315B0078934A /* MQPlayerManagerDelegate.swift in Sources */,
+				048F10671FD429CC0078934A /* ViewController+Notification.swift in Sources */,
+				048F10981FD4315B0078934A /* MQPlayerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		115048D61FCBB9E200D3381E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115048D71FCBB9E200D3381E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		115048DB1FCBB9E200D3381E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115048DC1FCBB9E200D3381E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115048DF1FCBB9E200D3381E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115048E01FCBB9E200D3381E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115048E21FCBB9E200D3381E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z8N64LL53;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ymq.AVAudioPlayer-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVAudioPlayer_demo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		115048E31FCBB9E200D3381E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z8N64LL53;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ymq.AVAudioPlayer-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVAudioPlayer_demo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115048CA1FCBB9E100D3381E /* Build configuration list for PBXProject "AVAudioPlayer_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115048DF1FCBB9E200D3381E /* Debug */,
+				115048E01FCBB9E200D3381E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115048E11FCBB9E200D3381E /* Build configuration list for PBXNativeTarget "AVAudioPlayer_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115048E21FCBB9E200D3381E /* Debug */,
+				115048E31FCBB9E200D3381E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115048C71FCBB9E100D3381E /* Project object */;
+}
